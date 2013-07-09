@@ -1,0 +1,60 @@
+#the input part
+var = raw_input("What is your name? ")
+print "Hello ", var
+cat = raw_input("What type of supercat are you? ")
+print cat + " is an excellent choice."
+
+#the first challenge
+print "Welcome to Your First Challenge:"
+print "THE OCEAN VOYAGE"
+print "You are sailing across a lake when you notice a large fin sticking out of the water."
+print "Type 1 if you want to sail in the opposite direction.  Type 2 if you want to sail closer to investigate."
+
+sailing = raw_input('> ')
+
+if sailing == "1":
+  print "You sail away and continue complete your voyage without any problems."
+	#pick up next part?
+
+elif sailing == "2":
+	print "As you get closer, you see a large eyeball come out of the water."
+	print "You are a " + cat + " so you are not scared. You continue sailing towards the eye.  As you get close to the fin, a head comes out of the water."
+	print "It is a giant dragon and it opens its jaws wide!"
+	print "Type 1 if you want to attack, or Type 2 if you want to try talking to it."
+
+teeth = raw_input('> ')
+
+if teeth == "1":
+	print "You grab a stick from the boat and leap at the dragon.  Feeling threatened, it snaps its jaws at you.  Your super speed keeps you safe."
+	print "You try to hit the dragon with your stick, but it is no use.  The dragon tries to slice you with his large claws, but you"
+	print "are too fast and agile.  You try to hit it again, but his skin is too thick.  Eventually, both of you get tired, so you decide to talk to the dragon."
+	
+	
+elif teeth == "2":
+	print "You stand up straight and ask who the dragon is and what it is doing here."
+	print "The dragon replies that its name is SCALE SCALE and it was bored of living at the bottom of the lake and wanted to explore."
+	print "You tell the dragon that you know how it feels.  You really like to explore too."
+
+print "The dragon asks if you like danger."
+print "Type 1 if you say YES, or Type 2 if you say NO."
+
+danger = raw_input('> ')
+
+if danger == "1":
+	print "The dragon says that he will ask you a question.  If you answer right, you will get gold, but if you answer wrong, he will attack!"
+	print "You tell him that you're a " + cat + " you are ready for anything!"
+	print "The dragon asks What has blue eyes in the morning and grey eyes in the afternoon?"
+
+elif danger == "2":
+	print "The dragon replies 'That's what I thought' as it dives back into the water.  You call after the dragon, but it does not reappear.  THE END."
+	
+riddle = raw_input()
+
+if riddle == "cat":
+	print "The dragon smiles.  You are right!  You are a clever " + cat + ".  I will give you a prize. Here are ten pieces of gold."
+	print "It hands you the gold and tells you that if you need help ever, you can call her name and she will come."
+	print "Then she disappears back into the water."
+	print "Congratulations!  You have finished the first challenge!"
+	
+else:
+	print "The dragon replies 'That's what I thought' as it dives back into the water.  You call after the dragon, but it does not reappear.  THE END."
